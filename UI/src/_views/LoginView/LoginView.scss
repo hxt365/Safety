@@ -1,0 +1,22 @@
+.login-view {
+  height: 100vh;
+  background-color: #e63946;
+  position: relative;
+
+  &__container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__logo {
+    height: 80%;
+  }
+}

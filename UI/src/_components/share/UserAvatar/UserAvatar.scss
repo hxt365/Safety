@@ -1,0 +1,8 @@
+.user-avatar {
+  border: 1px white solid;
+  border-radius: 50%;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

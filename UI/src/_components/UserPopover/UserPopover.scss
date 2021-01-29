@@ -1,0 +1,13 @@
+.user-popover {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+
+  &__content {
+    width: 20vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

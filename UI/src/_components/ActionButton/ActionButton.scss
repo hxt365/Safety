@@ -1,0 +1,19 @@
+.action-button {
+  display: inline-block;
+
+  & .ant-btn {
+    border: none;
+
+    & > span {
+      margin-right: 0.5rem;
+    }
+  }
+
+  & [ant-click-animating-without-extra-node='true']::after {
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
+}

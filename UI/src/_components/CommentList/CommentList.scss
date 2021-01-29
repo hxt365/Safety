@@ -1,0 +1,14 @@
+.comment-list {
+  &__loading {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+  padding: 24px;
+
+  & .ant-btn.ant-btn-link {
+    padding: 0;
+  }
+}

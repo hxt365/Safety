@@ -1,0 +1,28 @@
+.edit-user-modal {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__error-msg {
+    margin: 2rem 0;
+    color: red;
+  }
+
+  &__form {
+    margin-bottom: -2rem;
+  }
+
+  .align-center {
+    margin-top: 4rem;
+    text-align: center;
+    & .ant-row.ant-form-item {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    button {
+      width: 15rem;
+    }
+  }
+}

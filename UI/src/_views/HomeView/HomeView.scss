@@ -1,0 +1,31 @@
+.home-view {
+  height: 100vh;
+
+  &__sider {
+    padding-bottom: 1rem;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #d6dee1;
+      border-radius: 5px;
+      border: 3px solid transparent;
+      background-clip: content-box;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: #a8bbbf;
+    }
+  }
+
+  & .ant-divider.ant-divider-horizontal {
+    margin: 0;
+  }
+
+  & .ant-tabs-nav {
+    display: none;
+  }
+}

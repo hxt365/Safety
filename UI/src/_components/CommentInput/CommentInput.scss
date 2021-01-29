@@ -1,0 +1,14 @@
+.comment-input {
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: -1rem;
+    padding-bottom: 12px;
+    align-items: center;
+  }
+  & input {
+    margin-left: 1rem;
+    margin-right: auto;
+  }
+}
