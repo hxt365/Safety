@@ -8,6 +8,7 @@ A simple application that alert people to nearby danger.
 - ReactJS & Mapbox
 - PostgreSQL & PostGIS
 - Docker
+- Facebook auth + JWT
 
 ## Demo
 
