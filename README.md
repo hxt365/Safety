@@ -1,6 +1,6 @@
 # Safety
 
-A simple application that alert people to nearby danger.
+A simple application that alerts people to nearby danger.
 
 ## Tech stacks
 
